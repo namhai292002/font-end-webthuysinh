@@ -1,0 +1,241 @@
+
+@media (max-width: 1200px){
+	.wrapper {
+		width: 1500px;
+	}
+	.container {
+		width: 1300px;
+	}
+	.header , .end  {
+		width:1500px;
+	}
+	.header , .wrapper .navbar .menu ul {
+		height: 60px;
+	}
+	.wrapper .contact  img {
+		width: 25%;
+	}
+	.wrapper .contact .search input {
+		width: 570px;
+		height: 60px;
+		font-size: 22px;
+	}
+	.wrapper .contact .search button {
+		width: 80px;
+		height:60px;
+		font-size: 22px;
+	}
+	.wrapper .contact .number h2 {
+		font-size: 29px;
+	}
+	.wrapper .contact .bag img {
+		width: 100%;
+	}
+	.wrapper .contact .bag span {
+		width: 40px;
+		height: 40px;
+		position: absolute;
+		bottom: 23px;
+		left: 33px;
+	}
+	.wrapper .navbar .menu .option {
+		height: 60px;
+	}
+	.wrapper .option_menu ul li {
+		font-size: 22px;
+		height: 44px;
+	}
+	.wrapper .option_menu img {
+		width: 73%;
+		height: 600px;
+	}
+	.wrapper .header .wrapper_layout .layout .link h4 {
+		font-size: 20px;
+	}
+	.wrapper .header .wrapper_layout .layout .link span {
+		font-size: 17px;
+	}
+	.wrapper .navbar .menu ul li ,.option span {
+		font-size: 19px;
+	}
+	.wrapper .section_privacy1 {
+		margin:25px auto;
+	}
+	.wrapper .section_privacy1 img {
+		margin-right: 10px;
+		width: 20%;
+	}
+	.wrapper .section_privacy1 h3{
+		font-size: 28px;
+		line-height: 50px;
+	}
+	.wrapper .section_privacy1 p {
+		font-size: 25px;
+		line-height:26px;
+	}
+	.module .title {
+		font-size: 22px;
+		height: 60px;
+	}
+	.module_header1{
+		width: 30%;
+	}
+	.module_header2{
+		width: 25%;
+	}
+	.module_header3{
+		width: 25%;
+	}
+	.module_header4{
+		width: 45%;
+	}
+	.wrapper .privacy4 {
+		display: none;
+	}
+	.wrapper .section_privacy2 img  {
+		width: 75px;
+		height: 75px;
+	}
+	.wrapper .section_privacy2 .module_header h3 {
+		font-size: 24px;
+	}
+	.wrapper .section_privacy2 .module_header span {
+		font-size:20px ;
+	}
+	.section_privacy2 .module_content {
+		display: grid;
+		grid-template-columns: auto auto auto auto;
+		column-gap: 15px;
+		padding-top: 15px;
+	}
+	.sp5 {
+		display: none;
+	}
+	.section_privacy2 .module_content .product_box img {
+		width: 300px;
+		height:300px;
+		row-gap: 90px;
+	}
+	.wrapper .section_privacy2 .module_content .product_box .image h4 {
+		width: 38px;
+		height: 38px;
+		font-size: 18px;
+		display:flex;
+		align-items: center;
+	}
+	.section_privacy2 .module_content .product_box .product_review {
+		font-size: 22px;
+	}
+	.section_privacy2 .module_content .product_box .product_name {
+		font-size: 21px;
+		margin: 20px auto;
+	}
+	.section_privacy2 .module_content .product_box .product_name span {
+		display: block;
+	}
+	.news_name {
+		font-size: 20px;
+	}
+	.wrapper .footer {
+		font-size: 20px;
+	}
+	.end h5 {
+		font-size: 22px;
+	}
+
+}
+@media (max-width: 980px){
+	.container {
+		width: 1400px;
+	}
+	#responship {
+		display: block;
+		height: auto;
+	}
+	.header {
+		height: 80px;
+	}
+	#responship .respon {
+		display: flex;
+		justify-content:space-between;
+		align-items: center;
+		margin-top: 30px;
+	}
+	.respon .icon {
+		font-size: 45px;
+		color: #ff0000;
+	}
+	.wrapper .contact .search input {
+		height: 80px;
+		font-size: 30px;
+	}
+	.wrapper .contact .search button {
+		height: 80px;
+		width: 8%;
+		font-size: 28px;
+	}
+	.wrapper .contact img {
+		width: 40%;
+	}
+	.wrapper .contact .bag img {
+		width: 130%;
+	}
+	.wrapper .contact .bag span {
+		width: 50px;
+		height: 50px;
+		bottom: 25px;
+		left: 40px;
+		font-size: 30px;
+	}
+	#no_responship {
+		display: none;
+	}
+	.wrapper .contact .search {
+		margin: 0;
+	}
+	.wrapper .contact .search input {
+		margin: 30px 0;
+		width: 100%;
+	}
+	.wrapper .header .wrapper_layout .layout .link h4 {
+		font-size: 30px;
+	}
+	.wrapper .header .wrapper_layout .layout2 {
+		display: none;
+	}
+	.navbar .menu .option li {
+		display: inline;
+	}
+	.navbar .menu li {
+		display: none;
+	}
+	.wrapper .navbar .menu .option {
+		width: 100%;
+		height: 80px;
+	}
+	.wrapper .navbar .menu .option span {
+		font-size: 30px;
+	}
+	.wrapper .navbar .menu ul li{
+		font-size: 30px;
+	}
+	.wrapper .navbar {
+		background-color: #06273c;
+	}
+	.wrapper .navbar .menu ul {
+		height: 80px;
+	}
+	.option_menu ul {
+		display: none;
+	}
+	.wrapper .option_menu img {
+		width: 100%;
+		height: auto;
+	}
+}
+@media (max-width: 420px){
+	.wrapper {
+		width: 1500px;
+		background-color: red;
+	}
+}
